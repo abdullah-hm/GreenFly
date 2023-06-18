@@ -1,0 +1,301 @@
+@media screen and (max-width: 1600px) {
+  body {
+    font-family: Actief Grotesque, -apple-system, \.SFNSText-Regular, San Francisco, Roboto, Segoe UI, Helvetica Neue, Lucida Grande, sans-serif;
+  }
+  body .parallax-container .slider .indicators {
+    display: none;
+  }
+  body .navigation-section .navigation-body {
+    background-color: white;
+  }
+  body .navigation-section .navigation-body .brand-logo img {
+    width: 55px;
+    height: 55px;
+    margin: 5px;
+  }
+  body .navigation-section .navigation-body .brand-logo span {
+    font-weight: bold;
+  }
+  body .navigation-section .navigation-body a {
+    display: flex;
+  }
+  body .navigation-section .navigation-body a i {
+    margin-right: 6px;
+  }
+  body .navigation-section .navigation-body .sidenav-trigger {
+    display: none;
+  }
+  body .page-footer {
+    background-color: white;
+    color: black;
+  }
+  body .page-footer h5,
+  body .page-footer li,
+  body .page-footer a {
+    color: black;
+  }
+  body .page-footer .footer-copyright {
+    color: black;
+  }
+  body .page-footer .footer-copyright a {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  body .page-footer .footer-copyright p {
+    line-height: inherit !important;
+    font-size: 14px;
+  }
+  body .login-form-section {
+    background: #222;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://unsplash.it/1200/800/?random');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-fill-mode: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  body .login-form-section .card-panel {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 0 10px #e1ffff;
+    margin: 40px;
+    border-radius: 20px;
+    color: white;
+  }
+  body .login-form-section .card-panel input,
+  body .login-form-section .card-panel label,
+  body .login-form-section .card-panel span {
+    color: white;
+  }
+  body .login-form-section .card-panel .container i {
+    color: white;
+  }
+  body .login-form-section .card-panel .container span:before,
+  body .login-form-section .card-panel .container [type="radio"]:not(:checked) + span:after {
+    border: 2px solid #fff;
+  }
+  body .login-form-section .card-panel .login-button button {
+    background: -webkit-linear-gradient(45deg, #221f23, #ffa000) !important;
+    background: linear-gradient(45deg, #f500b5, #d0903f) !important;
+    border-radius: 6px;
+  }
+  body .login-form-section .card-panel .new-user-button a {
+    color: #fff;
+    background: -webkit-linear-gradient(45deg, #303f9f, #7b1fa2);
+    background: linear-gradient(45deg, #303f9f, #7b1fa2);
+    box-shadow: 3px 3px 20px 0 rgba(123, 31, 162, 0.5);
+    border-radius: 6px;
+  }
+  body .new-user-form-section {
+    background: #222;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://unsplash.it/1200/800/?random');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-fill-mode: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  body .new-user-form-section .container {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 0 10px #e1ffe6;
+    color: white;
+    margin: 10px -10px 10px;
+    border-radius: 20px;
+  }
+  body .new-user-form-section .container i,
+  body .new-user-form-section .container input,
+  body .new-user-form-section .container label {
+    color: #fff;
+  }
+  body .new-user-form-section .container span {
+    text-decoration-color: white;
+  }
+  body .new-user-form-section .container radio:required {
+    border-color: red;
+  }
+  body .new-user-form-section .container .row {
+    margin-bottom: 10px;
+  }
+  body .new-user-form-section .container .ngl {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+  }
+  body .user-reg-success-page {
+    background: #222;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://unsplash.it/1200/800/?random');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-fill-mode: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  body .user-reg-success-page p {
+    font-size: 45px;
+  }
+  body .customer-homepage-section .tabs {
+    height: auto;
+    white-space: normal;
+  }
+  body .customer-homepage-section .tab {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  body .customer-homepage-section .tab-content {
+    height: auto;
+    width: 100%;
+    background: #fcfcfc;
+    border: 1px solid #f0f0f0;
+  }
+  body .customer-homepage-section .indicator {
+    display: none;
+  }
+  body .section-gallery {
+    background: #efefef;
+  }
+  body .section-popular {
+    background: #efefef;
+  }
+  body .section-contact {
+    background: #efefef;
+  }
+  body .section-contact iframe {
+    margin: 12px 60px 12px;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+  body .sidenav {
+    background-color: black;
+  }
+  body .sidenav li a {
+    color: white;
+  }
+  body .sidenav li a i {
+    color: white !important;
+  }
+  body .navigation-section .navigation-body {
+    background-color: black;
+  }
+  body .navigation-section .navigation-body .brand-logo img {
+    width: 46px;
+    height: 46px;
+    margin: 5px;
+  }
+  body .navigation-section .navigation-body .brand-logo span {
+    font-weight: bold;
+  }
+  body .navigation-section .navigation-body .sidenav-trigger {
+    display: flex;
+  }
+  body .page-footer {
+    background-color: black;
+    color: white;
+  }
+  body .page-footer h5,
+  body .page-footer li,
+  body .page-footer a {
+    color: white;
+  }
+  body .page-footer .footer-copyright {
+    font-size: 13px;
+    line-height: inherit !important;
+    color: white;
+  }
+  body .login-form-section {
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://unsplash.it/1200/800/?random');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+  }
+  body .login-form-section .card-panel {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 0 10px #e1ffe6;
+    color: white;
+    margin: 10px -10px 10px;
+    border-radius: 20px;
+  }
+  body .login-form-section .card-panel input,
+  body .login-form-section .card-panel label,
+  body .login-form-section .card-panel span,
+  body .login-form-section .card-panel i {
+    color: white;
+  }
+  body .login-form-section .card-panel .container span:before,
+  body .login-form-section .card-panel .container [type="radio"]:not(:checked) + span:after {
+    border: 2px solid #fff;
+  }
+  body .login-form-section .card-panel .login-button button {
+    background: -webkit-linear-gradient(45deg, #3949ab, #4fc3f7) !important;
+    background: linear-gradient(45deg, #3949ab, #4fc3f7) !important;
+    border-radius: 6px;
+  }
+  body .login-form-section .card-panel .new-user-button a {
+    background: -webkit-linear-gradient(45deg, #43a047, #1de9b6) !important;
+    background: linear-gradient(45deg, #43a047, #1de9b6) !important;
+    border-radius: 6px;
+  }
+  body .new-user-form-section .container {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0 0 10px #e1ffe6;
+    color: white;
+    margin: -50px 0px -40px;
+    border-radius: 20px;
+    height: 97%;
+  }
+  body .new-user-form-section .container .row .input-field {
+    margin: 4px;
+  }
+  body .new-user-form-section .container label {
+    color: white;
+  }
+  body .new-user-form-section button {
+    border-radius: 45px;
+    font-weight: bold;
+    margin: 10px;
+  }
+  body .user-reg-success-page {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://unsplash.it/1200/800/?random');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-fill-mode: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  body .user-reg-success-page p {
+    font-size: 25px;
+  }
+  body .section-icons {
+    color: black;
+  }
+  body .section-popular {
+    color: black;
+  }
+  body .section-gallery {
+    background: #efefef;
+    color: black;
+  }
+  body .section-contact {
+    color: black;
+  }
+  body .section-contact iframe {
+    margin: -10px -12px -20px;
+  }
+}
+/*# sourceMappingURL=homepage.css.map */

@@ -1,0 +1,414 @@
+@media screen and  (max-width: 1600px) {
+  body {
+
+    font-family: Actief Grotesque,
+    -apple-system,
+    \.SFNSText-Regular,
+    San Francisco, Roboto,
+    Segoe UI,
+    Helvetica Neue,
+    Lucida Grande,
+    sans-serif;
+
+    .parallax-container {
+      .slider {
+        .indicators {
+          display: none;
+        }
+      }
+    }
+
+    .navigation-section {
+      .navigation-body {
+        background-color: white;
+        //position: fixed;
+        .brand-logo {
+          img {
+            width: 55px;
+            height: 55px;
+            margin: 5px;
+          }
+          span{
+            font-weight: bold;
+          }
+        }
+
+        a {
+          display: flex;
+
+          i {
+            margin-right: 6px;
+          }
+        }
+
+        .sidenav-trigger {
+          display: none;
+        }
+      }
+    }
+
+    .page-footer {
+      background-color: white;
+      color: black;
+
+      h5, li, a {
+        color: black;
+      }
+
+
+      .footer-copyright {
+        color: black;
+
+        a {
+          font-weight: bold;
+          font-size: 14px;
+        }
+
+        p {
+          line-height: inherit !important;
+          font-size: 14px;
+        }
+
+      }
+    }
+
+    .login-form-section {
+      background: #222;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://unsplash.it/1200/800/?random');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-fill-mode: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+
+      .card-panel {
+
+        background-color: rgba(0, 0, 0, 0);
+        box-shadow: 0 0 10px rgba(225, 255, 255, 255);
+        margin: 40px;
+        border-radius: 20px;
+        color: white;
+
+        input, label, span {
+          color: white;
+        }
+
+        .container {
+          i {
+            color: white;
+          }
+
+          span:before, [type="radio"]:not(:checked) + span:after {
+            border: 2px solid #fff;
+          }
+        }
+
+        .login-button {
+          button {
+            background: -webkit-linear-gradient(45deg, #221f23, #ffa000) !important;
+            background: linear-gradient(45deg, #f500b5, #d0903f) !important;
+            border-radius: 6px;
+          }
+        }
+
+        .new-user-button {
+          a {
+            color: #fff;
+            background: -webkit-linear-gradient(45deg, #303f9f, #7b1fa2);
+            background: linear-gradient(45deg, #303f9f, #7b1fa2);
+            box-shadow: 3px 3px 20px 0 rgba(123, 31, 162, .5);
+            border-radius: 6px;
+          }
+        }
+
+
+      }
+
+    }
+
+    .new-user-form-section {
+      background: #222;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://unsplash.it/1200/800/?random');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-fill-mode: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+
+      .container {
+        background-color: rgba(0, 0, 0, 0);
+        box-shadow: 0 0 10px rgba(225, 255, 230, 1);
+        color: white;
+        margin: 10px -10px 10px;
+        border-radius: 20px;
+
+        i, input, label {
+         color: #fff;
+        }
+        span{
+          text-decoration-color: white;
+        }
+
+        radio:required {
+          border-color: red;
+        }
+
+        .row {
+          margin-bottom: 10px;
+        }
+
+        .ngl {
+          position: absolute;
+          top: -20px;
+          right: -20px;
+        }
+
+      }
+    }
+
+    .user-reg-success-page {
+      background: #222;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://unsplash.it/1200/800/?random');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-fill-mode: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+
+      p {
+        font-size: 45px;
+
+      }
+    }
+
+    .customer-homepage-section {
+
+      .tabs {
+        height: auto;
+        white-space: normal;
+      }
+
+      .tab {
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid #f0f0f0;
+      }
+
+      .tab-content {
+        height: auto;
+        width: 100%;
+        background: #fcfcfc;
+        border: 1px solid #f0f0f0;
+      }
+
+      .indicator {
+        display: none;
+      }
+
+    }
+
+    .section-gallery{
+      background: #efefef;
+    }
+
+    .section-popular{
+      background: #efefef;
+    }
+
+    .section-contact{
+      background: #efefef;
+      iframe{
+        margin: 12px 60px 12px;
+      }
+    }
+  }
+
+}
+
+
+@media screen and (max-width: 480px) {
+  body {
+
+    background-color: black;
+    color: white;
+
+    .sidenav {
+      background-color: black;
+
+      li {
+
+        a {
+          color: white;
+
+          i {
+            color: white !important;
+          }
+        }
+      }
+    }
+
+    .navigation-section {
+
+      .navigation-body {
+        background-color: black;
+        //position: unset;
+        .brand-logo {
+          img {
+            width: 46px;
+            height: 46px;
+            margin: 5px;
+          }
+          span{
+            font-weight: bold;
+          }
+        }
+
+
+        .sidenav-trigger {
+          display: flex;
+        }
+      }
+    }
+
+    .page-footer {
+      background-color: black;
+      color: white;
+
+      h5, li, a {
+        color: white;
+      }
+
+
+      .footer-copyright {
+        font-size: 13px;
+        line-height: inherit !important;
+        color: white;
+
+
+      }
+    }
+
+    .login-form-section {
+      color: white;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://unsplash.it/1200/800/?random');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: auto;
+
+
+      .card-panel {
+        background-color: rgba(0, 0, 0, 0);
+        box-shadow: 0 0 10px rgba(225, 255, 230, 1);
+        color: white;
+        margin: 10px -10px 10px;
+        border-radius: 20px;
+
+        input, label, span, i {
+          color: white;
+        }
+
+        .container {
+          span:before, [type="radio"]:not(:checked) + span:after {
+            border: 2px solid #fff;
+          }
+        }
+
+        .login-button {
+
+          button {
+            background: -webkit-linear-gradient(45deg, #3949ab, #4fc3f7) !important;
+            background: linear-gradient(45deg, #3949ab, #4fc3f7) !important;
+            border-radius: 6px;
+          }
+
+        }
+
+        .new-user-button {
+
+          a {
+            background: -webkit-linear-gradient(45deg, #43a047, #1de9b6) !important;
+            background: linear-gradient(45deg, #43a047, #1de9b6) !important;
+            border-radius: 6px;
+          }
+
+        }
+
+
+      }
+    }
+
+    .new-user-form-section {
+
+      .container {
+        background-color: rgba(0, 0, 0, 0);
+        box-shadow: 0 0 10px rgba(225, 255, 230, 1);
+        color: white;
+        margin: -50px 0px -40px;
+        border-radius: 20px;
+        height: 97%;
+        .row{
+
+          .input-field{
+            margin: 4px;
+          }
+
+        }
+        label {
+          color: white;
+        }
+      }
+      button{
+        border-radius: 45px;
+        font-weight: bold;
+        margin: 10px;
+      }
+    }
+
+    .user-reg-success-page {
+
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://unsplash.it/1200/800/?random');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      background-fill-mode: rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50vh;
+
+      p {
+        font-size: 25px;
+
+      }
+    }
+
+    .section-icons{
+      color: black;
+    }
+    .section-popular{
+      color: black;
+    }
+    .section-gallery{
+      background: #efefef;
+      color: black;
+    }
+    .section-contact{
+      color: black;
+      iframe{
+        margin: -10px -12px -20px;
+      }
+    }
+  }
+}
+
+
+
